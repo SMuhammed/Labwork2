@@ -3,14 +3,13 @@
 # Type="MYSQL"
 # HTTP="true"
 $localhost = "localhost";
-$db = "MySiteDB1";
+$db = "MySiteDB";
 $user = "admin1";
 $password = "admin1";
 
 
 $link = mysqli_connect($localhost, $user, $password) or trigger_error(mysql_error(),E_USER_ERROR);
 //trigger_error выводит на страницу сообщение об ошибке. Первый параметр
-- сообщение об ошибке
 //в строковом виде, в данном случае возвращается функция  mysql_error(), второй - числовой код //ошибки(почти всегда используется значение константы E_USER_ERROR, равное 256)
 
 

@@ -1,3 +1,18 @@
+<?php
+require_once ("MySiteDB.php");
+//Использование цикла while
+while ($note ==mysqli_fetch_array($select_note)){
+    echo $note ['id'], "<br>";
+    ?>
+    <a href="comments.php?note=<?php echo $note['id']; ?>">
+<?php
+    echo $note ['title'], "<br>";
+    echo $note ['created'],"<br>";
+    echo $note ['content'],"<br>";
+
+}
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,14 +33,14 @@
     <center>
         <div id="menu">Разделы<hr/></div>
         <div id="menuHrefs">
-            <a href="labs/blog.html">Войти</a>
-            <a href="labs/blogs.html">Новая запись</a>
-            <a href="labs/blogs.html">Отправить сообщение</a>
-            <a href="labs/blogs.html">Фото</a>
-            <a href="labs/blogs.html">Файлы</a>
-            <a href="labs/blogs.html">Админстратору</a>
-            <a href="labs/blogs.html">Информация</a>
-            <a href="labs/blogs.html">Выйти</a>
+            <a href="labs/blog.php">Войти</a>
+            <a href="labs/blogs.php">Новая запись</a>
+            <a href="labs/blogs.php">Отправить сообщение</a>
+            <a href="labs/blogs.php">Фото</a>
+            <a href="labs/blogs.php">Файлы</a>
+            <a href="labs/blogs.php">Админстратору</a>
+            <a href="labs/blogs.php">Информация</a>
+            <a href="labs/blogs.php">Выйти</a>
         </div>
         <div id="wrapper">
             <div id="articles">
@@ -37,7 +52,7 @@
                 </article>
             </div>
         </div>
-        </center>
+    </center>
 </div>
 <footer>
     <span class="left">Все правы защищены &copy 2016</span>
@@ -45,3 +60,4 @@
 </footer>
 </body>
 </html>
+

@@ -12,18 +12,14 @@ echo "hello world!";
 <br />
 <br />
 <br />
-<br />
-<br />
-<br />
-<br />
 <div id="menuHrefs">
-          <a  href="labs/MySiteDB.php" title="На главную"  id="logo">MysiteDb</a>
-          <a  href="labs/exemples.php" title="На главную"  id="logo">Упражнений</a>
-          <a  href="labs/blogs.html" title="На главную"  id="logo">Блоги</a>
-          <a  href="labs/inform.html" title="На главную"  id="logo">Информации</a>
-          <a  href="labs/create_db.php" title="На главную"  id="logo">Connection and Creating DB</a>
-          <a  href="labs/create_user.php" title="На главную"  id="logo">Create user</a>
-        <a  href="labs/create_tbl_notes.php" title="На главную"  id="logo">Create table notes2</a>
+          <a  href="labs/MySiteDB.php" title="На главную"  id="logo">MysiteDb</a></br>
+          <a  href="labs/exemples.php" title="На главную"  id="logo">Упражнений</a></br>
+          <a  href="labs/blogs.php" title="На главную"  id="logo">Блоги</a></br>
+          <a  href="labs/inform.html" title="На главную"  id="logo">Информации</a></br>
+          <a  href="labs/create_db.php" title="На главную"  id="logo">Connection and Creating DB</a></br>
+          <a  href="labs/create_user.php" title="На главную"  id="logo">Create user</a></br>
+        <a  href="labs/create_tbl_notes.php" title="На главную"  id="logo">Create table notes2</a></br>
          </div>
 </body>
 </html>
